@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentUI.Demo.NoInteractivity", "FluentUI.Demo.NoInteractivity\FluentUI.Demo.NoInteractivity.csproj", "{92F2F3B2-B954-4349-A30D-C0AE10D7EA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.FluentUI.AspNetCore.Components", "..\fluentui-blazor\src\Core\Microsoft.FluentUI.AspNetCore.Components.csproj", "{DCF4EF03-2729-4D0D-A907-0F564BD805EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F2F3B2-B954-4349-A30D-C0AE10D7EA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F2F3B2-B954-4349-A30D-C0AE10D7EA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F2F3B2-B954-4349-A30D-C0AE10D7EA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F2F3B2-B954-4349-A30D-C0AE10D7EA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF4EF03-2729-4D0D-A907-0F564BD805EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF4EF03-2729-4D0D-A907-0F564BD805EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF4EF03-2729-4D0D-A907-0F564BD805EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF4EF03-2729-4D0D-A907-0F564BD805EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

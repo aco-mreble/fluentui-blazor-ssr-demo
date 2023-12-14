@@ -1,0 +1,40 @@
+﻿@page "/"
+@* @rendermode InteractiveServer *@
+
+@code {
+    private bool _expandedOne;
+    private bool _expandedTwo = true;
+}
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+
+Welcome to your new app.
+
+<FluentNavMenu>
+    <FluentNavLink>Test1</FluentNavLink>
+    <FluentNavGroup Title="@_expandedOne.ToString()" @bind-Expanded="_expandedOne">
+        <FluentNavLink>Test1</FluentNavLink>
+        <FluentNavLink>Test1</FluentNavLink>
+    </FluentNavGroup>
+
+    <FluentNavGroup Title="@_expandedTwo.ToString()" @bind-Expanded="_expandedTwo">
+        <FluentNavLink>Test2</FluentNavLink>
+        <FluentNavLink>Test2</FluentNavLink>
+    </FluentNavGroup>
+    <FluentNavGroup Title="TestThree" Href="/weather">
+            <FluentNavLink>Test Href</FluentNavLink>
+            <FluentNavLink>Test Href</FluentNavLink>
+        </FluentNavGroup>
+</FluentNavMenu>
+
+<FluentTreeView>
+    <FluentTreeItem Text="hehe">
+        <FluentTreeItem Text="huhu">
+            <FluentTreeItem Text="hihi"></FluentTreeItem>
+        </FluentTreeItem>
+    </FluentTreeItem>
+
+</FluentTreeView>
